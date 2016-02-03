@@ -7,16 +7,15 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:paddingLeft="20dp"/>
+        android:id="@+id/categoryImage"
+        android:paddingLeft="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
-        android:id="@+id/title"
-       />
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/categoryTitle" />
 
 </LinearLayout>

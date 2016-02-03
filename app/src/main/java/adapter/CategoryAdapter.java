@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.example.stepan.armeniansmsbox.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,7 +25,7 @@ public class CategoryAdapter extends ArrayAdapter<String> {
         String category = getItem(position);
         // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.category_list_item, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.category_list_fragment_item, parent, false);
         }
         // Lookup view for data population
         TextView title = (TextView) convertView.findViewById(R.id.title);
